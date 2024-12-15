@@ -2,10 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Ques1 from './Basics Questions/WelcomeUser'
-import Ques2 from './Basics Questions/ItemList'
-import Ques3 from './Basics Questions/ImageCard'
-import Ques4 from './Basics Questions/DynamicButton'
+import WelcomeUser from './Basics Questions/WelcomeUser'
+import ItemList from './Basics Questions/ItemList'
+import ImageCard from './Basics Questions/ImageCard'
+import DynamicButton from './Basics Questions/DynamicButton'
 import Counter from './States and Event Handling/Counter'
 import Form from './States and Event Handling/Form'
 import Toggle from './States and Event Handling/Toggle'
@@ -31,12 +31,13 @@ function App() {
   return (
     <>
       <div>
-        {/* <Ques1 name="Priya"/>
-        <Ques2 items ={items}/>
-        <Ques3 imgUrl={imgUrl} description={description}/>
-        <Ques4 label="hello" onclick={handleClick}/>
-        
+        {/* <WelcomeUser name="Priya"/>
+        <ItemList items ={items}/>
+        <ImageCard imgUrl={imgUrl} description={description}/>
+        <DynamicButton label="hello" onclick={handleClick}/>
+              
         */}
+        {/* <StatusMessage isActive = {true}/> */}
 
         {/* <Counter/> */}
 
@@ -46,7 +47,7 @@ function App() {
       {/*  <DisplayTime/> */}
 
       {/* <DropdownMenu/> */}
-      {/* <StatusMessage isActive = {true}/> */}
+      
   {/*     <InputForm/> */}
   {/* <Todo/> */}
 {/*   <MultiInputForm/>
